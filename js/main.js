@@ -20,11 +20,11 @@ setInterval(nextSlide, 3000); /* Cambia de imagen cada 3 segundos*/
 /*PARA MOSTRAR LA SUMA DADA POR NUMERO DEL USUARIO*/
 
 document.getElementById('numUsua').addEventListener('submit', function(event) {
-    event.preventDefault(); /* Evita que el formulario se envíe y se pueda ejecutar el conteo*/
+    event.preventDefault(); /* Evita que el formulario se envÃ­e y se pueda ejecutar el conteo*/
     
     var number = parseInt(document.getElementById('numberInput').value);
     if (isNaN(number)) {
-      alert('Por favor, ingresa un número válido.');
+      alert('Por favor, ingresa un nÃºmero vÃ¡lido.');
       return;
     }
     
@@ -36,25 +36,25 @@ document.getElementById('numUsua').addEventListener('submit', function(event) {
     var counterDiv = document.getElementById('suma');
     counterDiv.innerHTML = ''; // Limpiar el contenido anterior
     
-    counterDiv.innerHTML = 'La suma de los números hasta ' + number + ' es: ' + suma;
+    counterDiv.innerHTML = 'La suma de los numeros hasta ' + number + ' es: ' + suma;
 }); 
 
 
 /*PARA MOSTRAR CONTEO HASTA NUMERO DEL USUARIO*/
 
 document.getElementById('numUsua').addEventListener('submit', function(event) {
-    event.preventDefault(); /* Evita que el formulario se envíe y se pueda ejecutar el conteo*/
+    event.preventDefault(); /* Evita que el formulario se envÃ­e y se pueda ejecutar el conteo*/
     
     var number = parseInt(document.getElementById('numberInput').value);
     if (isNaN(number)) {
-      alert('Por favor, ingresa un número válido.');
+      alert('Por favor, ingresa un numero valido.');
       return;
     }
     
     var counterDiv = document.getElementById('contador');
     counterDiv.innerHTML = ''; // Limpiar el contenido anterior
     
-    /* Función para mostrar el contador */
+    /* FunciÃ³n para mostrar el contador */
     function showCounter(count) {
       counterDiv.innerHTML = count;
       if (count < number) {
@@ -62,7 +62,7 @@ document.getElementById('numUsua').addEventListener('submit', function(event) {
           showCounter(count + 1);
         }, 1000); /* el numero 1000 es 1 segundo, tiempo que se demora mostrando el numero */
       } else {
-        counterDiv.innerHTML += '<p>¡Felicidades! Has llegado al número ingresado.</p>';
+        counterDiv.innerHTML += '<p>Felicidades! Has llegado al numero ingresado.</p>';
       }
     }
     
@@ -78,7 +78,7 @@ function obtenerSaludo() {
   
     while (true) {
       if (hora >= 0 && hora < 12) {
-        saludo = 'Buenos Días Fanatico';
+        saludo = 'Buenos DÃ­as Fanatico';
         break;
       } else if (hora >= 12 && hora < 19) {
         saludo = 'Buenas Tardes Fanatico';
@@ -110,7 +110,7 @@ function obtenerSaludo() {
       return;
     }
     
-    messageDiv.textContent = '¡El comentario ha sido recibido!';
+    messageDiv.textContent = 'El comentario ha sido recibido!';
     
     /* Limpia la data del formulario */
     setTimeout(function() {
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
         enlaceServicios.href = "https://enciclopediaeconomica.com/servicios/";
         enlaceServicios.classList.add('nuevo-estilo');
     } else {
-        console.error("El elemento de menú 'Servicios' no se encontró.");
+        console.error("El elemento de menÃº 'Servicios' no se encontrÃ³.");
     }
 });
 
@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (itemServicios) {
         itemServicios.parentNode.removeChild(itemServicios);
     } else {
-        console.error("El elemento de menú 'PRUEBA' no se encontró.");
+        console.error("El elemento de menÃº 'PRUEBA' no se encontrÃ³.");
     }
 });
 
