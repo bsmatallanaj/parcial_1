@@ -42,7 +42,7 @@ body {
     font-family: Georgia, serif;
     margin: 20px auto;
     padding: 60px ;
-    background-image: url("img\ring.jpg"); 
+    background-image: url(../img/ring.jpg); 
     /*background-size: cover;  pone la imagen en tamaño maximo*/
     background-size: 130rem;
     background-position: center;
