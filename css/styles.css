@@ -42,8 +42,8 @@ body {
     font-family: Georgia, serif;
     margin: 20px auto;
     padding: 60px ;
-    background-image: url("C:/Users/ASUS/Desktop/categoriaBoxeadores/img/ring.jpg"); 
-    /*background-size: cover;  pone la imagen en tamaño maximo*/
+    background-image: url("img/ring.jpg"); 
+    /*background-size: cover;  pone la imagen en tamaÃ±o maximo*/
     background-size: 130rem;
     background-position: center;
     }
@@ -123,11 +123,11 @@ body {
 .boton {
     border: 1px solid #ff0000; /*anchura, estilo y color borde*/
     padding: 10px; /*espacio alrededor texto*/
-    background-color: #efb810; /*color botón*/
+    background-color: #efb810; /*color botÃ³n*/
     color: #070707; /*color texto*/
-    text-decoration: none; /*decoración texto*/
-    text-transform: uppercase; /*capitalización texto*/
-    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    text-decoration: none; /*decoraciÃ³n texto*/
+    text-transform: uppercase; /*capitalizaciÃ³n texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografÃ­a texto*/
     border-radius: 10px; /*bordes redondos*/
     }
 
@@ -142,9 +142,9 @@ body {
     }
     
 
-/* Estilos para el menú de navegación nav */
+/* Estilos para el menÃº de navegaciÃ³n nav */
 nav {
-    background-image: url("C:/Users/ASUS/Desktop/categoriaBoxeadores/img/alambre.jpg"); 
+    background-image: url("img/alambre.jpg"); 
     background-size: 2rem;
     background-position: center;
   }
@@ -171,7 +171,7 @@ nav ul li a:hover {
 footer {
 
     padding: 20px 0;
-    background-image: url("C:/Users/ASUS/Desktop/categoriaBoxeadores/img/alambre.jpg"); 
+    background-image: url("img/alambre.jpg"); 
     background-size: 2rem;
     background-position: center;
   }
