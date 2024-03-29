@@ -37,6 +37,14 @@ p {
     text-align:center  ;
 }
 
+.bordered-text {
+  text-shadow: 
+      -1px -1px 0 red,  
+      1px -1px 0 red,
+      -1px 1px 0 red,
+      1px 1px 0 red; 
+}
+
 /*Estilos para el body*/
 body {
     font-family: Georgia, serif;
