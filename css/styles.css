@@ -42,7 +42,7 @@ body {
     font-family: Georgia, serif;
     margin: 20px auto;
     padding: 60px ;
-    background-image: url("img/ring.jpg"); 
+    background-image: url("img\ring.jpg"); 
     /*background-size: cover;  pone la imagen en tamaño maximo*/
     background-size: 130rem;
     background-position: center;
@@ -144,7 +144,7 @@ body {
 
 /* Estilos para el menú de navegación nav */
 nav {
-    background-image: url("img/alambre.jpg"); 
+    background-image: url("img\alambre.jpg"); 
     background-size: 2rem;
     background-position: center;
   }
@@ -171,7 +171,7 @@ nav ul li a:hover {
 footer {
 
     padding: 20px 0;
-    background-image: url("img/alambre.jpg"); 
+    background-image: url("img\alambre.jpg"); 
     background-size: 2rem;
     background-position: center;
   }
