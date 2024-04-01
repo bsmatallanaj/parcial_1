@@ -102,7 +102,8 @@ body {
   background: #e1e4bd52;
   border-radius: 20px;
   height: 500px;
-  width: 97%;
+  /*width: 97%;*/
+  width: 1385px;
 }
 
 .div3 {
