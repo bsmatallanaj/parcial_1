@@ -107,6 +107,7 @@ p {
     border-radius: 20px;
     height: 350px;
     width: 1100px;
+
 }
 .div16 {
     border: 5px solid #efb810;
@@ -123,11 +124,8 @@ p {
     width: 1100px;
 }
 .div18 {
-    border: 5px solid #efb810;
-    background: #e1e4bd52;
-    border-radius: 20px;
-    height: 350px;
-    width: 1100px;
+
+    text-align: center;
 }
 
 /* Estilos para el footer */
