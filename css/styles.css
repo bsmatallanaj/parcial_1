@@ -91,7 +91,7 @@ body {
 /*Estilos para los div*/
 .div1 {
   border: 5px solid #efb810;
-  background: #ccbde452;
+  background: #e1e4bd52;
   border-radius: 20px;
   height: 350px;
   width: 97%;
@@ -131,13 +131,6 @@ body {
   text-align: center;
 }
 
-.div6 {
-  border: 5px solid #efb810;
-  background: #e1e4bd52;
-  border-radius: 20px;
-  height: 350px;
-  width: 97%;
-}
 
 /*Estilos para botones*/
 .boton {
