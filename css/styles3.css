@@ -1,3 +1,5 @@
+/*Styles for FANATICOS DEL BOXEO, INDEX*/
+
 /*Estilos para la titulos y parrafos*/
 h1 {
     color: red;
@@ -31,15 +33,11 @@ p {
     color: rgb(0, 0, 0);
     font-family: verdana, serif;
     font-style: italic;
-    text-align: center;
+    text-align: justify;
 }
 
-.bordered-text {
-    text-shadow:
-        -1px -1px 0 red,
-        1px -1px 0 red,
-        -1px 1px 0 red,
-        1px 1px 0 red;
+li {
+    text-align: justify;
 }
 
 /*Estilos para el body*/
@@ -55,7 +53,7 @@ body {
 
 
 /*Estilos para bloque, enmarca la hoja*/
-.div18 {
+.bloque {
     max-width: 1600px;
     margin: 20px auto;
     padding: 30px;
@@ -72,101 +70,48 @@ body {
 }
 
 /*Estilos para los div*/
-.div10 {
+.div1 {
     border: 5px solid #efb810;
-    background: #e1e4bd52;
+    background: #ffffff9f;
     border-radius: 20px;
-    height: 250px;
-    width: 1100px;
+    height: 500px;
+    width: 97%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.div11 {
+.div2 {
     border: 5px solid #efb810;
-    background: #e1e4bd52;
-    border-radius: 20px;
-    height: 250px;
-    width: 1100px;
-}
-
-.div12 {
-    border: 5px solid #efb810;
-    background: #e1e4bd52;
-    border-radius: 20px;
-    height: 250px;
-    width: 1100px;
-}
-
-.div13 {
-    border: 5px solid #efb810;
-    background: #e1e4bd52;
-    border-radius: 20px;
-    height: 250px;
-    width: 1100px;
-}
-
-.div14 {
-    border: 5px solid #efb810;
-    background: #e1e4bd52;
+    background: #ffffff9f;
     border-radius: 20px;
     height: 350px;
     width: 1100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.div15 {
+.div3 {
     border: 5px solid #efb810;
-    background: #e1e4bd52;
+    background: #ffffff9f;
     border-radius: 20px;
     height: 350px;
     width: 1100px;
-
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.div16 {
+.div4 {
     border: 5px solid #efb810;
-    background: #e1e4bd52;
+    background: #ffffff9f;
     border-radius: 20px;
     height: 350px;
     width: 1100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.div17 {
-    border: 5px solid #efb810;
-    background: #e1e4bd52;
-    border-radius: 20px;
-    height: 350px;
-    width: 1100px;
-}
-
-.div18 {
-
+.bloque {
     text-align: center;
-}
-
-/* Estilos para el footer */
-footer {
-
-    padding: 20px 0;
-    background-size: 2rem;
-    background-image: url(../img/alambre.jpg);
-    background-position: center;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-}
-
-.container ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-.container ul li a {
-    color: #f50404;
-    text-decoration: none;
 }
 
 /* Estilos para el menú de navegación nav */
@@ -239,15 +184,141 @@ nav ul ul li a:hover {
     /* Cambia el color de fondo al pasar el mouse sobre los enlaces en las subsecciones */
 }
 
-/*Estilos para el body*/
-body {
-    font-family: Georgia, serif;
-    margin: 20px auto;
-    padding: 60px;
-    background-image: url(../img/ring.jpg);
-    /*background-size: cover;  pone la imagen en tamaño maximo*/
-    background-size: 130rem;
+/* Estilos para el footer */
+footer {
+
+    padding: 20px 0;
+    background-image: url(../img/alambre.jpg);
+    background-size: 2rem;
     background-position: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.container ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.container ul li a {
+    color: #f50404;
+    text-decoration: none;
+}
+
+#slider {
+    margin: 0 auto;
+    width: 570px;
+
+    text-align: center;
+}
+
+#slider input[type=radio] {
+    display: none;
+}
+
+#slider label {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#overflow {
+    width: 100%;
+    overflow: hidden;
+}
+
+#slide1:checked~#slides .inner {
+    margin-left: 0;
+}
+
+#slide2:checked~#slides .inner {
+    margin-left: -100%;
+}
+
+#slide3:checked~#slides .inner {
+    margin-left: -200%;
+}
+
+#slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+}
+
+#slides .slide {
+    width: 25%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+
+#controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+}
+
+#controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+}
+
+#controls label:hover {
+    opacity: 1;
+}
+
+#slide1:checked~#controls label:nth-child(2),
+#slide2:checked~#controls label:nth-child(3),
+#slide3:checked~#controls label:nth-child(1) {
+    border-radius: 100%;
+    background: url(https://acortar.link/WUBjD3);
+    float: right;
+    margin: 0 -70px 0 0;
+    display: block;
+}
+
+#slide1:checked~#controls label:nth-child(3),
+#slide2:checked~#controls label:nth-child(1),
+#slide3:checked~#controls label:nth-child(2) {
+    border-radius: 100%;
+    background: url(https://acortar.link/WUBjD3);
+    float: left;
+    margin: 0 0 0 -70px;
+    display: block;
+}
+
+#bullets {
+    margin: 150px 0 0;
+    text-align: center;
+}
+
+#bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+#slide1:checked~#bullets label:nth-child(1),
+#slide2:checked~#bullets label:nth-child(2),
+#slide3:checked~#bullets label:nth-child(3) {
+    background: #444;
 }
 
 #scrollToTop {

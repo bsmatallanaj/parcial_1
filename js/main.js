@@ -2,6 +2,11 @@
 
 /*PARA EL SLIDER DE IMAGENES*/
 
+// Sube al principio de la pagina
+document.getElementById('scrollToTop').addEventListener('click', function () {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
 const slider = document.querySelector('.slider');
 const slides = document.querySelector('.slides');
 
@@ -95,7 +100,7 @@ function obtenerSaludo() {
   document.getElementById('saludo').innerHTML = obtenerSaludo();
 
   /*PARA EL FORMULARIO, BORRA LA DATA Y MUESTRA MSJ */
-
+  console.log("Formulario")
   document.getElementById('commentForm').addEventListener('submit', function(event) {
     event.preventDefault(); /* Permite que no se envie el formulario y podamos ver el msj */
     
@@ -109,6 +114,11 @@ function obtenerSaludo() {
       alert('Por favor, completa todos los campos.');
       return;
     }
+
+    console.log('Nombre:', name);
+    console.log('Email:', email);
+    console.log('Mensaje:', mensaje);
+    console.log("\n");
     
     messageDiv.textContent = 'El comentario ha sido recibido!';
     
@@ -180,3 +190,43 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// Ciclo for que imprime los números del 1 al 5
+console.log("Números de i");
+for (var i = 1; i <= 5; i++) {
+    console.log("Número i => " + i);
+}
+
+console.log("\n");
+
+// Ciclo while que imprime los números del 1 al 5
+console.log("Números de j");
+var j = 1;
+while (j <= 5) {
+    console.log("Número j => " + j);
+    j++;
+}
+
+console.log("\n");
+
+// Condicionales que dice la escala de edad a la que pertenece 
+console.log("Escala de edad");
+var edad = 20;
+
+if (edad < 18) {
+    console.log("Eres menor de edad");
+} else if (edad >= 18 && edad < 65) {
+    console.log("Eres adulto");
+} else {
+    console.log("Eres adulto mayor");
+}
+
+console.log("\n");
+
+// Método map que duplica cada valor
+console.log("Método map - array");
+const numeros = [1, 2, 3, 4, 5];
+console.log(numeros);
+const numerosDuplicados = numeros.map(numero => numero * 2);
+console.log(numerosDuplicados);
+
+console.log("\n");
