@@ -274,3 +274,17 @@ footer {
   transform: scale(1.1);
   transition: transform 0.2s ease;
 }
+
+/*ESTILOS PARA LISTA*/
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    text-align: left;
+}
+
+ul ul {
+    padding-left: 20px; 
+}
