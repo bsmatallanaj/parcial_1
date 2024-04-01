@@ -100,7 +100,7 @@ function obtenerSaludo() {
   document.getElementById('saludo').innerHTML = obtenerSaludo();
 
   /*PARA EL FORMULARIO, BORRA LA DATA Y MUESTRA MSJ */
-  console.log("Formulario")
+  /*console.log("Formulario")*/
   document.getElementById('commentForm').addEventListener('submit', function(event) {
     event.preventDefault(); /* Permite que no se envie el formulario y podamos ver el msj */
     
@@ -115,10 +115,12 @@ function obtenerSaludo() {
       return;
     }
 
+    /*
     console.log('Nombre:', name);
     console.log('Email:', email);
     console.log('Mensaje:', mensaje);
     console.log("\n");
+    */
     
     messageDiv.textContent = 'El comentario ha sido recibido!';
     
