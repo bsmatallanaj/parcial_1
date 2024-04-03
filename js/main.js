@@ -235,5 +235,5 @@ console.log("\n");
 
 function modificarTexto() {
     var texto = document.getElementById("text-dom");
-    texto.innerHTML = "Párrafo modificado";
+    texto.innerHTML = "Boxeooooo";
 }
