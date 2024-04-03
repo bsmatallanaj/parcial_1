@@ -136,10 +136,11 @@ nav ul li a {
     display: block;
     padding: 25px 70px;
     font-weight: bold;
-    font-size: 23px;
-    color: #fc0202;
     text-decoration: none;
     font-family: Georgia, serif;
+    color: blue;
+    font-size: 80px;
+    font-family: Italic;
 }
 
 nav ul li a:hover {
