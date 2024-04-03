@@ -234,6 +234,6 @@ console.log(numerosDuplicados);
 console.log("\n");
 
 function modificarTexto() {
-    var h1 = document.getElementById("text-dom");
-    parrafo.innerHTML = "Boxeoooo";
+    var texto = document.getElementById("text-dom");
+    texto.innerHTML = "Párrafo modificado";
 }
